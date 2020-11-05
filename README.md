@@ -10,6 +10,6 @@
 
 * you can use ```docker-compose stop``` to stop the containers
 
-* Check the App running in a Browser at http://localhost:8001/ (WINDOWS)
+* Check the App running in a Browser at http://localhost:8001/
 
 * Test file generation with http://localhost:8001/api - the file first.pptx is generated in app/demo
