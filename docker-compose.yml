@@ -1,0 +1,12 @@
+version: '2'
+services:  
+    pptapp_dataservices:
+        container_name: pptapp_dataservices
+        volumes:
+            - './dataservices/app:/app/dataservices/app'
+        build: ./dataservices/
+        ports:
+            - '8001:8080'
+        environment:
+            - NODE_ENV=development
+        stdin_open: true

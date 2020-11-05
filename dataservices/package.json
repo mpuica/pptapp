@@ -1,0 +1,14 @@
+{
+    "name": "ppt_app",
+    "version": "1.0.0",
+    "description": "PPTX genrating app",
+    "author": "Mihail Puica <mihail@mpdeveloper.ca>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1",
+      "pptxgenjs": "^3.3.1"
+    }
+  }
